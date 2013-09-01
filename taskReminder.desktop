@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=TaskReminder
+Name=task reminder wallpaper
+Comment[en_US]=
+Comment=
+Exec=java -cp /home/mayank/.taskReminder TaskReminder

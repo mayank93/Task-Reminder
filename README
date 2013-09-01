@@ -1,0 +1,29 @@
+Task Reminder Wallpaper
+
+#ABOUT:
+>It is a simple java app that allows you to keep track of your all tasks,even show them on desktop without occuping any space becauses they are shown as a desktop wallpaper.
+
+#TO-INSTALL
+>Simple to Install.
+>Just execute the following command:-  "./installer".
+>provide current user password on asking.
+>If you are not in sudoers list after running installer run last two command of installer as root.
+>Adjust the new wallpaper so that all of it come on screen.
+>For fedora 17:- Go to System Settings --> Background  and from right-bottom dropdown menu choose fill.
+
+#TO-RUN:
+>From Command-line type:-  "java -cp /home/mayank/.taskReminder TaskReminder".
+OR 
+>GUI:- run "TaskReminder" present with other desktop applications like "Calculator".
+
+#COMPATIABLE
+>With GNOME 3.
+
+#TO-DO
+>Make compatiblel with GNOME 2,kde and other GUI's.
+
+
+Mayank Gupta
+IIIT Hyderabad
+mayankrocks.1993@gmail.com
+mayank.g@students.iiit.ac.in

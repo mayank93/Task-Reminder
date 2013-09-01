@@ -1,0 +1,8 @@
+#! /bin/bash
+mkdir ~/.taskReminder/
+cp  ./*.class work.png nowork.png ~/.taskReminder
+cp ./appLauncher ./taskReminder.desktop
+echo -n "Exec=java -cp " >> taskReminder.desktop
+echo  ~/.taskReminder TaskReminder >> taskReminder.desktop
+sudo cp ./taskReminder.desktop /usr/share/applications/
+sudo chmod 744 /usr/share/applications/taskReminder.desktop
